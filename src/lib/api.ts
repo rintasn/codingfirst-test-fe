@@ -1,7 +1,7 @@
 // lib/api.ts
 import { LoginFormData, RegisterFormData, User, UserPreferences } from './types';
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8080/api';
+const API_URL = process.env.NEXT_PUBLIC_API_URL || 'https://portal2.incoe.astra.co.id/api/codingfirst/api';
 
 // Helper function untuk mengambil token dari localStorage
 const getToken = (): string | null => {
